@@ -1,0 +1,81 @@
+.squareCard {
+    
+    border-style: solid;
+    border-width: 3px; 
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 2px;
+    color: #ffffff;
+    
+}
+
+.tileDisplay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomPositioning {
+    position: fixed;
+    bottom: 5pt;
+    left: 0;
+    right: 0;
+}
+
+.menuPositioning {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.largeSize {
+    font-size: 50pt;
+    width: 80pt;
+    height: 80pt;
+    border-radius: 15px;
+}
+
+.smallSize {
+    font-size: 20pt;
+    width: 40pt;
+    height: 40pt;
+    border-radius: 7px;
+
+}
+
+.unopened {
+    border-color: #8a8a8a;
+    background-color: #8a8a8a;
+}
+
+.opened {
+    border-color: #ffc832;
+    background-color: #ffc832;
+}
+
+.finished {
+    border-color: #00b60f;
+    background-color: #00b60f;
+}
+
+.hvr-grow {
+    transform: translateZ(0);
+    /* box-shadow: 0 0 3px rgba(0, 0, 0, 10); */
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.currentExercise {
+    transform: scale(1.1);
+}
